@@ -6,6 +6,8 @@
 
 2026 年 10 月中旬以前，Code 分页的新对话画面会显示一张 Claude Code 用量卡片：对话数、消息数、token、活跃天数、每日热力图，还有 Models 分页。用户反映它在 Desktop v2.42304.0 之后消失了（[anthropics/claude-code#102961](https://github.com/anthropics/claude-code/issues/102961)、[#102098](https://github.com/anthropics/claude-code/issues/102098)），数据仍能通过 `/stats` 查看，但版面不同。usage-card 把这张卡片重新画出来，显示在对话旁边的面板里。
 
+![Claude 桌面应用里的用量卡片](docs/usage-card.png)
+
 ## 显示内容
 
 时间范围：**All**、**30d**、**7d**，**↻** 手动刷新。对话开始时和之后每 10 分钟也会自动刷新。

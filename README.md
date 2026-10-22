@@ -6,6 +6,8 @@ A [Claude Code mod](https://code.claude.com/docs/en/plugins/mods/overview) that 
 
 Until mid-October 2026 the Code tab's new-session screen showed a card with your Claude Code usage: sessions, messages, tokens, active days, a daily heatmap and a Models tab. Users report it went away in Desktop v2.42304.0 ([anthropics/claude-code#102961](https://github.com/anthropics/claude-code/issues/102961), [#102098](https://github.com/anthropics/claude-code/issues/102098)); the data is still reachable through `/stats`, in a different layout. usage-card draws that card again, as a pane beside the conversation.
 
+![The usage card in the Claude desktop app](docs/usage-card.png)
+
 ## What it shows
 
 Ranges: **All**, **30d** and **7d**, and **↻** to refresh. It also refreshes when a session starts and every 10 minutes.
