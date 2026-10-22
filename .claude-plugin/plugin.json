@@ -1,0 +1,11 @@
+{
+  "name": "usage-card",
+  "version": "0.1.0",
+  "description": "Brings back the Code tab's usage stats card as a pane: sessions, messages, tokens, streaks, a daily heatmap and tokens per model, from this computer's Claude Code history",
+  "author": { "name": "Huuuuung", "url": "https://github.com/Huuuuung" },
+  "homepage": "https://github.com/Huuuuung/claude-usage-card",
+  "repository": "https://github.com/Huuuuung/claude-usage-card",
+  "license": "MIT",
+  "keywords": ["usage", "stats", "tokens", "desktop"],
+  "types": "./types/index.d.ts"
+}

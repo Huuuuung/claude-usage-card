@@ -1,0 +1,14 @@
+{
+  "name": "claude-usage-card",
+  "owner": { "name": "Huuuuung", "url": "https://github.com/Huuuuung" },
+  "description": "claude-usage-card: the Code tab's usage stats card, back as a pane in the Claude desktop app",
+  "plugins": [
+    {
+      "name": "usage-card",
+      "source": "./",
+      "description": "Brings back the Code tab's usage stats card as a pane: sessions, messages, tokens, streaks, a daily heatmap and tokens per model, from this computer's Claude Code history",
+      "version": "0.1.0",
+      "license": "MIT"
+    }
+  ]
+}
